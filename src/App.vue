@@ -150,13 +150,13 @@ export default {
       }
       
     },
-    printValue(val) {
-      alert("Functions parameter: " + val);
-      alert("Binding value before tick: " + this.value);
-      this.$nextTick(() => {
-        alert("Binding value after tick: " + this.value);
-      });
-    }
+    // printValue(val) {
+    //   alert("Functions parameter: " + val);
+    //   alert("Binding value before tick: " + this.value);
+    //   this.$nextTick(() => {
+    //     alert("Binding value after tick: " + this.value);
+    //   });
+    // }
   }
 };
 </script>
